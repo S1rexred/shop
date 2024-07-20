@@ -15,6 +15,10 @@ body {
     margin: 50px auto;
 }
 
+header{
+    position: relative;
+}
+
 header .logo {
     font-weight: 600;
     font-size: 20px;
@@ -36,6 +40,31 @@ header ul.nav li {
 
 header ul.nav li:hover {
     opacity: 0.5;
+}
+
+header .shop-cart-button {
+    float: right;
+    cursor: pointer;
+    transition: color 500ms ease;
+    font-size: 20px;
+}
+
+header .shop-cart-button:hover,
+header .shop-cart-button.active {
+    color: #A52A2A;
+    
+}
+
+header .shop-cart {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 450px;
+    min-height: 100px;
+    background:#F5F5F5;
+    -webkit-box-shadow: 7px 3px 15px 6px rgba(0,0,0,0.43); 
+    box-shadow: 7px 3px 15px 6px rgba(0,0,0,0.43);
+    z-index: 1000;
 }
 
 header .presentation {
