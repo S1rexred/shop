@@ -6,7 +6,7 @@
 body {
     background: white;
     color: #222;
-    font-familyL: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
 
@@ -60,11 +60,34 @@ header .shop-cart {
     top: 30px;
     right: 0;
     width: 450px;
-    min-height: 100px;
     background:#F5F5F5;
     -webkit-box-shadow: 7px 3px 15px 6px rgba(0,0,0,0.43); 
     box-shadow: 7px 3px 15px 6px rgba(0,0,0,0.43);
     z-index: 1000;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+header .shop-cart .item {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+header .shop-cart .item img {
+    width: 70px;
+    float: left;
+    margin-left: 10px;
+}
+
+header .shop-cart .item h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+header .shop-cart .item b {
+    color: gray;
+    font-weight: 600;
 }
 
 header .presentation {
