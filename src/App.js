@@ -11,7 +11,7 @@ class App extends React.Component {
                 {
                     id: 1,
                     title: 'Диван',
-                    img: '',
+                    img: './Sofa.jpeg',
                     desc: 'Суперский диван для всей семьи',
                     category: 'sofa',
                     price: '30.000'
@@ -19,7 +19,7 @@ class App extends React.Component {
                 {
                     id: 2,
                     title: 'Стул',
-                    img: '',
+                    img: './chair.jpeg',
                     desc: 'Суперский стул для работы за компьютером',
                     category: 'chair',
                     price: '4.000'
@@ -27,7 +27,7 @@ class App extends React.Component {
                 {
                     id: 3,
                     title: 'Стол',
-                    img: '',
+                    img: './table.jpg',
                     desc: 'Суперский стол для всей семьи',
                     category: 'table',
                     price: '10.000'
@@ -35,7 +35,7 @@ class App extends React.Component {
                 {
                     id: 4,
                     title: 'Табуретка',
-                    img: '',
+                    img: './stool.jpg',
                     desc: 'Удобная табуретка с подушкой',
                     category: 'stool',
                     price: '1.000'
@@ -43,7 +43,7 @@ class App extends React.Component {
                 {
                     id: 5,
                     title: 'Шкаф',
-                    img: '',
+                    img: './wordrobe.jpg',
                     desc: 'Суперский шкаф для всей семьи',
                     category: 'wordrobe',
                     price: '20.000'
