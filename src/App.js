@@ -18,7 +18,8 @@ class App extends React.Component {
                     img: './Sofa.jpeg',
                     desc: 'Суперский диван для всей семьи',
                     category: 'sofa',
-                    price: '30000'
+                    price: '30000',
+                    alt: 'Диван'
                 },
                 {
                     id: 2,
@@ -26,7 +27,8 @@ class App extends React.Component {
                     img: './chair.jpeg',
                     desc: 'Суперский стул для работы за компьютером',
                     category: 'chair',
-                    price: '4000'
+                    price: '4000',
+                    alt: 'стул'
                 },
                 {
                     id: 3,
@@ -34,7 +36,8 @@ class App extends React.Component {
                     img: './table1.jpg',
                     desc: 'Суперский стол для всей семьи',
                     category: 'table',
-                    price: '10000'
+                    price: '10000',
+                    alt: 'стол'
                 },
                 {
                     id: 4,
@@ -42,7 +45,8 @@ class App extends React.Component {
                     img: './stool.jpg',
                     desc: 'Удобная табуретка с подушкой',
                     category: 'stool',
-                    price: '1300'
+                    price: '1300',
+                    alt: 'табуретка'
                 },
                 {
                     id: 5,
@@ -50,7 +54,8 @@ class App extends React.Component {
                     img: './wordrobe.jpg',
                     desc: 'Суперский шкаф для всей семьи',
                     category: 'wordrobe',
-                    price: '20000'
+                    price: '20000',
+                    alt: 'шкаф'
                 },
                 {
                     id: 6,
@@ -58,7 +63,8 @@ class App extends React.Component {
                     img: './light.jpg',
                     desc: 'Лучшая лампа для вашего стола',
                     category: 'light',
-                    price: '2500'
+                    price: '2500',
+                    alt: 'лампа настольная'
                 },
             ],
             showFullItem: false,
